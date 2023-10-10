@@ -1,0 +1,29 @@
+-- import: fifthtry.github.io/doc-site as ds ;;this package creates a page with logo, page heading and body,darkmode icon
+-- import: gargajit.github.io/expander as e  ;;creates a box element
+-- import: fifthtry.github.io/admonitions as a ;; creates info element
+-- import: fastn-community.github.io/winter-cs 
+-- import: fastn1/assets     ;; to fetch from folder fastn1                   
+-- ds.page: Doc Site Package  ;; page heading
+site-logo: $assets.files.images.logo1.jpg     ;; for changing logo in ds
+colors: $winter-cs.main
+
+A reader lives a thousand lives before he dies . . . The man who never reads lives only one.”
+                                                                                                                                        
+                                                            
+-- ds.h1: Heading  ;;heading under page heading like...about
+ 
+ This page is created with the help of 4 main packages in fastn
+ - fifthtry.github.io/doc-site
+ - fifthtry.github.io/admonitions
+ - fastn-community.github.io/winter-cs
+ - gargajit.github.io/expander
+
+-- e.box: Expander!  ;;expander package
+
+  this is the result of expander package( cmt=e.box:hello world)  ;;e pkg box element
+
+-- a.info: admonitions note ;;admotions package
+
+This info is created by admotions package using the element info(cmt= a.info:<info heading>)
+
+-- end:ds.page 
