@@ -1,2 +1,0 @@
-# fastn
-Basics of Fastn
